@@ -14,3 +14,4 @@ zahl2 = input("Nenne bitte eine weitere Zahl?")
 zahl1_int = int(zahl1)
 zahl2_int = int(zahl2)
 print(f"Die Summe ergibt: {zahl1_int + zahl2_int}")
+
