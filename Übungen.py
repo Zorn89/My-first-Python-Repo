@@ -22,8 +22,8 @@ jahr = input("Jahr:")
 
 jahr_int= int(jahr)
 
-if jahr_int >= 1928 and jahr_int <= 1945 and: 
-        print("Generation Silent")
+if jahr_int >= 1928 and jahr_int <= 1945:
+    print("Generation Silent")
 elif jahr_int >= 1946 and jahr_int <= 1964:
     print("Generation Boomer")
 elif jahr_int >= 1945 and jahr_int <= 1980:
@@ -44,9 +44,9 @@ t=input("Temperatur")
 w=input("Wetter ()regen / sonne)")
 t_int = int(t) 
 
-if t > 0 an d t< 10 and w !="regen":
+if t > 0 and t< 10 and w !="regen":
     print("Trage eine Jacke")
-elif w == "regen"
+elif w == "regen":
     print("Nimm ein Schirm mit")
-elif t>= 11 and t<20 an w != "regen" and w != "windig":
+elif t>= 11 and t<20 and w != "regen" and w != "windig":
     print("sommerlich kleiden")
