@@ -50,3 +50,8 @@ elif w == "regen":
     print("Nimm ein Schirm mit")
 elif t>= 11 and t<20 and w != "regen" and w != "windig":
     print("sommerlich kleiden")
+
+
+
+
+ 
