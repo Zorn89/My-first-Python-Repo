@@ -30,5 +30,4 @@ def calculator ():
         print("Bitte gültige Opertation auswhählen")
         
         
-    calculator ():
-
+    calculator ()

@@ -10,7 +10,6 @@ def calc_area():
     zahl2 = float(input("width:"))
 
 
-op = input("Operation (*):")
 
 if op == "*":
         print(f"{zahl1} * {zahl2} = {multi(zahl1, zahl2)}")
