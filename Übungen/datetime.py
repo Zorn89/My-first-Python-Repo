@@ -22,3 +22,5 @@ for holiday, (start, end) in holidays.items():
 if not holiday_found: 
     print(f"{input_date_str} is in business!")
 
+    diff = year.replace(year=today.year + 1) - today
+    return diff.days
