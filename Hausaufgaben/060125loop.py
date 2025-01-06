@@ -1,6 +1,8 @@
 # Aufgabe 1
 
-# Schreibe ein Programm, das die Häufigkeit eines Buchstabens in einem Text zählt. 1. Der Benutzer gibt einen Text und einen Buchstaben ein. 2. Dein Programm zählt mit einer Schleife, wie oft dieser Buchstabe im Text vorkommt.
+# Schreibe ein Programm, das die Häufigkeit eines Buchstabens in einem Text zählt. 
+# 1. Der Benutzer gibt einen Text und einen Buchstaben ein. 
+# 2. Dein Programm zählt mit einer Schleife, wie oft dieser Buchstabe im Text vorkommt.
 
 # Benutzer gibt den Text und den Buchstaben ein
 text = input("Bitte geben Sie einen Text ein: ")
@@ -21,7 +23,10 @@ print(f"Der Buchstabe '{buchstabe}' kommt {haeufigkeit} mal im Textvor.")
 
 # Aufgabe 2 
 
-# Schreibe ein Programm, das: 1. Den Benutzer auffordert, 5 Zahlen einzugeben. 2. Mit einer Schleife die Summe und den Durchschnitt der Zahlen berechnet. 3. Die Ergebnisse ausgibt.
+# Schreibe ein Programm, das: 
+# 1. Den Benutzer auffordert, 5 Zahlen einzugeben. 
+# 2. Mit einer Schleife die Summe und den Durchschnitt der Zahlen berechnet. 
+# 3. Die Ergebnisse ausgibt.
 
 # Benutzer auffordern, 5 Zahlen einzugeben
 zahlen = []
