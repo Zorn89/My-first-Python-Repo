@@ -29,7 +29,7 @@ print(f"Der Buchstabe '{buchstabe}' kommt {haeufigkeit} mal im Textvor.")
 # 3. Die Ergebnisse ausgibt.
 
 # Benutzer auffordern, 5 Zahlen einzugeben
-zahlen = []
+zahlen = [] #Liste
 for i in range(5):
     zahl = float(input(f"Gib die {i+1}. Zahl ein: "))
     zahlen.append(zahl)
@@ -40,4 +40,12 @@ durchschnitt = summe / len(zahlen)
 
 # Ergebnisse ausgeben
 print(f"Die Summe ist: {summe}")
-print(f"Der Durchschnitt ist: {durchschnitt}")
+print(f"Der Durchschnitt ist: {durchschnitt}") 
+
+#Aufgabe 3
+#Muster erstellen
+def print_stars(x): 
+        for i in range(x):  # [0,1,2,3,4,5,6,7,8,9]
+            print("o" * i)
+
+print_stars(10)
