@@ -6,7 +6,7 @@ def addiere_zahlen(a, b): # : fehlte
     return ergebnis # ergebis war falsch  
 
 def subtrahiere_zahlen(a, b):
-    return a - b # c anstatt b
+    return a - b # b anstatt c
 
 def main(): # ein : fehlte
     zahl1 = int(input("Gib eine Zahl ein: "))  #Der input()-Befehl gibt standardmäßig einen String zurück. Daher int zum umwandeln 
